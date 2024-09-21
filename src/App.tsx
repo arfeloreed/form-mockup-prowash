@@ -15,7 +15,7 @@ function App() {
   const [showDetails, setShowDetails] = useState(false);
 
   return (
-    <div className="flex min-h-screen w-full items-center px-2 font-poppins text-white">
+    <div className="flex min-h-screen w-full items-center px-2 font-poppins text-white max-lg:py-10">
       <div className="flex size-full flex-col items-center justify-center text-center">
         <h1 className="text-7xl font-semibold uppercase">
           WELCOME TO Pro-Wash
